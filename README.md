@@ -2,7 +2,7 @@
 
 <hr>
 
-#### <u>Relationship between HTML, CSS and JavaScript.</u>
+#### <u> Relationship between HTML, CSS and JavaScript.</u>
 
 > HTML, CSS and JavaScript are not born in isolation, they all work together to build a webpage.
 >
@@ -55,3 +55,29 @@ For backend development :-
 
 > ii) a) Change the background color of a webpage when you click on the webpage
 > <img src="./console5.PNG" alt="add a click event on the console to Change the background color of a webpage when you click on the webpage">
+
+## What is JavaScript?
+- JavaScript is a programming language for the web.
+
+### What can you do with JS?
+- Develop web applications using Angular, Reactjs, Vuejs, Nestjs(backend)
+- Develop desktop applications using Electron
+- Develop mobile applications using React Native, Native Script
+- Develop AI and Machine learning projects using TensorFlow.
+
+### What is a JavaScript Framework?  
+- A framework is something built on top of a programming language.
+- It is an abstraction on top of js that enables a developer to do something more efficiently in less time.
+e.g. Facebook's frontend is built on Reactjs Library for efficiency and time saving.
+
+### Is JavaScript the best language?
+- It depends on the <u>Use case</u>
+- For example, if you need a a web application, <i>JavaScript or a js framework</i> will be the best option
+- If you need an AI for a Tesla car, <i>Python</i> would be the best option.
+- If you need a banking application, <i>C or C++</i>, would be the best option.
+
+
+
+
+
+
