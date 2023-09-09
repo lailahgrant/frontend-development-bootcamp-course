@@ -161,7 +161,36 @@ e.g. Facebook's frontend is built on Reactjs Library for efficiency and time sav
 > e.g. 
 > <pre>
 >   const firstArray = [10, 20, 30, 40];
-> const secondArray = [10, 'a string', {prop : 'hullahop', [1,2]}];
+> const secondArray = [10, 'a string', {prop : 'hullahop'}, [1,2]];
 >
 > console.log(firstArray[0]);
+> console.log(secondArray[3]);
+> console.log(secondArray[3][1]); //2
 > </pre>
+
+- Objects
+> - Complex container.
+> - key-value pair.
+> <pre>
+> const objVar = {prop1: 20, prop2: 20,};
+> </pre>
+> To access the values in an object, we use <b>dot(.) notation</b>.
+> <pre>
+> const nestedObj = {
+>   layer1: {
+>       layer2: {
+>           layer3: {
+>              targetValue:20
+> } 
+> }
+> }
+> }
+>
+> //to get the value, use the . notation
+> console.log(nestedObj.layer1.layer2.layer3.targetValue);
+> </pre>
+
+
+
+
+
