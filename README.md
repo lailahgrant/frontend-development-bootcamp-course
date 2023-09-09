@@ -76,8 +76,27 @@ e.g. Facebook's frontend is built on Reactjs Library for efficiency and time sav
 - If you need an AI for a Tesla car, <i>Python</i> would be the best option.
 - If you need a banking application, <i>C or C++</i>, would be the best option.
 
+### Do you need HTML and CSS to do JavaSCript?
+- Yes and No.
+- Yes, because HTML and CSS is used on the <b>Frontend</b>.
+- No, JavaScript is used on both <b>Frontend</b> and <b>Backend</b>.
 
+### What is the difference between ECMAScript and JavaScript?
+> ES6 is the latest specification of ECMAScript.
+- ECMA is an International organization in charge of Language Specification (Standards) - just like ISO
+- JavaScript is an implementation of this Specification.
+- And this is important for Browser compatability and other reasons.
 
+## What is a Programming Language?
+- This is a group of <b>tokens</b> or <b>symbols</b> when combined together in a very specific way can be translated by a compiler into machine code or (ones and zeros).
+- To understand compilers, Runtime, Operating system theories etc, read the following book :- <b>The Elements of Computing Systems</b> [If you have time].
+-    
+> - If you're in a hurry to code, Read :- <b>The Hidden Language of Computer Hardware and Software</b> by <i>Charles Petzoi</i>
 
-
-
+### Where does JavaScript run?
+- Run time - is basically where an environment where code is run.
+- JavaScript has 2 <i>Run times</i> which are <b>Nodejs Run time</b> and the <b>Browser Run time</b>.
+- The browser Run time in Chrome uses [V8 engine](https://v8.dev) and this does all  the compilation, optimization etc.
+- Nodejs which is the backend version of js or the run-time, also uses V8 engine.
+- Mozilla uses <b>Spider Monkey</b> which was the original run time engine. 
+- Listen to the <b>Browser Wars</b> podcasts.
