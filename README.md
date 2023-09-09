@@ -10,11 +10,11 @@
 
 - Think of these 3 as a house:-
 There's the <b>Structure</b>, <b>Styling</b> and <b>Functionality</b>
-<img src="./exp.PNG" alt="html,css,js illustrated as a house" >
+<img src="./assets/exp.PNG" alt="html,css,js illustrated as a house" >
 
 - The <b>Structure </b>would be the <b>HTML</b>, the <b>Functionality</b> would be the <b>JavaScript</b> and the <b>Styling</b> would be the <b>CSS</b>.
 
-<img src="./expl.PNG" alt="html,css,js illustrated as a fully-furnishedhouse" >
+<img src="./assets/expl.PNG" alt="html,css,js illustrated as a fully-furnishedhouse" >
 
 <u>Requirements</u>.
 - Browser - Firefox [It has advanced Developer Tools]
@@ -31,9 +31,9 @@ There's the <b>Structure</b>, <b>Styling</b> and <b>Functionality</b>
 > <u>For Example</u>
 > i) Use the console to change a background image as it could be done in the inspector
 >
-> <img src="./console.PNG" alt="console">
+> <img src="./assets/console.PNG" alt="console">
 > 
-> <img src="./console1.PNG" alt="console">
+> <img src="./assets/console1.PNG" alt="console">
 
 ##### b) Network
 For backend development :-
@@ -49,12 +49,12 @@ For backend development :-
 > <u>For Example</u>
 > ii) Use the console to change a background color of the webpage by targeting the <body></body>
 >
-><img src="./console3.PNG" alt="console to change a background color of the webpage by targeting the body tag">
+><img src="./assets/console3.PNG" alt="console to change a background color of the webpage by targeting the body tag">
 
 <hr>
 
 > ii) a) Change the background color of a webpage when you click on the webpage
-> <img src="./console5.PNG" alt="add a click event on the console to Change the background color of a webpage when you click on the webpage">
+> <img src="./assets/console5.PNG" alt="add a click event on the console to Change the background color of a webpage when you click on the webpage">
 
 ## What is JavaScript?
 - JavaScript is a programming language for the web.
@@ -146,6 +146,8 @@ e.g. Facebook's frontend is built on Reactjs Library for efficiency and time sav
 
 ### Data types
 > JavaScript is a Dynamically typed language.
+- There are 5 main data types in JS i.e. Numbers, Strings, Booleans, Arrays and Objects.
+
 - Numbers
 > e.g. const num = 10;
 
@@ -171,8 +173,13 @@ e.g. Facebook's frontend is built on Reactjs Library for efficiency and time sav
 - Objects
 > - Complex container.
 > - key-value pair.
+> - Everything is an object in JavaScript.
+> - To access the values in an object, we use <b>dot(.) notation</b>.
+> - You can also use the <b>[ "propertyName" ]</b>
 > <pre>
 > const objVar = {prop1: 20, prop2: 20,};
+> console.log(objVar["prop1"]);
+> 
 > </pre>
 > To access the values in an object, we use <b>dot(.) notation</b>.
 > <pre>
@@ -190,6 +197,32 @@ e.g. Facebook's frontend is built on Reactjs Library for efficiency and time sav
 > console.log(nestedObj.layer1.layer2.layer3.targetValue);
 > </pre>
 
+- Functions
+> can store functions in a variable
+> <pre>
+>   const functionVar = function(){
+>   return 20;
+> }
+> //call fn 
+> functionVar();
+> </pre>
+
+<hr>
+
+### Challenges
+
+<img src="./assets/challenge_1.PNG" alt="challenge 1" >
+
+
+<img src="./assets/challenge_2.PNG" alt="challenge 2" >
+
+
+<img src="./assets/challenge_3.PNG" alt="challenge 3" >
+
+
+<img src="./assets/challenge_4.PNG" alt="challenge 4" >
+
+<img src="./assets/challenge_5.PNG" alt="challenge 5" >
 
 
 
