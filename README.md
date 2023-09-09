@@ -100,3 +100,68 @@ e.g. Facebook's frontend is built on Reactjs Library for efficiency and time sav
 - Nodejs which is the backend version of js or the run-time, also uses V8 engine.
 - Mozilla uses <b>Spider Monkey</b> which was the original run time engine. 
 - Listen to the <b>Browser Wars</b> podcasts.
+
+## JavaScript Variables
+
+### var, let and const keywords
+> a) <b>var</b> allows re-declaring.
+> e.g 
+> <pre>
+>    var myVar = 10;
+>    var myVar = 20;
+>    console.log(myVar); //it will give 20, it updates the value
+> </pre>
+>
+><hr>
+>
+> <b>const</b> -  it's used when you expect a value not to change. e.g. const taxRate = 0.9;
+> It doesn't allow re-declaration and re-assigning.
+> e.g 
+> <pre>
+>   const anotherVariable = 10;
+>   const anotherVariable = 20; // SyntaxError : redeclaration of const anotherVariable
+> </pre>
+> <hr>
+> 
+> <b>Let</b> - it's used every time you think you'll need to <b>re-assign</b> a variable.
+> e.g.
+> let 
+> <pre>
+>   let counter = 0;
+>   counter = counter + 1;
+>   counter++;
+>   console.log(counter); //no errors
+> </pre>
+> 
+
+### Style guides.
+> Conventions used by different companies for different programming languages.
+> i) Google JavaScript Style Guide
+> [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)
+> ii) Airbnb JavaScript Style Guide
+> [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
+> iii) W3schools
+> [JavaScript Style Guide](https://www.w3schools.com/js/js_conventions.asp)
+
+
+### Data types
+> JavaScript is a Dynamically typed language.
+- Numbers
+> e.g. const num = 10;
+
+- Booleans
+> true or false;
+
+- Strings
+> const myString = "Lailah Grant";
+
+- Arrays
+> list of items of any data types.
+> Arrays are indexed from 0.
+> e.g. 
+> <pre>
+>   const firstArray = [10, 20, 30, 40];
+> const secondArray = [10, 'a string', {prop : 'hullahop', [1,2]}];
+>
+> console.log(firstArray[0]);
+> </pre>
