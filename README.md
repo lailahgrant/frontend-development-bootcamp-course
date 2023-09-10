@@ -144,7 +144,7 @@ e.g. Facebook's frontend is built on Reactjs Library for efficiency and time sav
 > [JavaScript Style Guide](https://www.w3schools.com/js/js_conventions.asp)
 
 
-### Data types
+### JavaScript Data types
 > JavaScript is a Dynamically typed language.
 - There are 5 main data types in JS i.e. Numbers, Strings, Booleans, Arrays and Objects.
 
@@ -209,20 +209,151 @@ e.g. Facebook's frontend is built on Reactjs Library for efficiency and time sav
 
 <hr>
 
-### Challenges
+### Day 01 Challenges
 
-<img src="./assets/challenge_1.PNG" alt="challenge 1" >
-
-
-<img src="./assets/challenge_2.PNG" alt="challenge 2" >
+<img src="./assets/challenge-day-1/challenge_1.PNG" alt="challenge 1" >
 
 
-<img src="./assets/challenge_3.PNG" alt="challenge 3" >
+<img src="./assets/challenge-day-1/challenge_2.PNG" alt="challenge 2" >
 
 
-<img src="./assets/challenge_4.PNG" alt="challenge 4" >
+<img src="./assets/challenge-day-1/challenge_3.PNG" alt="challenge 3" >
 
-<img src="./assets/challenge_5.PNG" alt="challenge 5" >
+
+<img src="./assets/challenge-day-1/challenge_4.PNG" alt="challenge 4" >
+
+<img src="./assets/challenge-day-1/challenge_5.PNG" alt="challenge 5" >
+
+
+
+### JavaScript Operators
+
+- An operator is something that allows you to either compare two values, modify values, combine values.
+- There a 4 main types of operators: 
+  - Arithmetic Operators like + , -, *, /, %, **, ++, --
+  - Assignment Operators like =, +=, -=, *=, /=
+  - Logical Operators like &&, || and !
+  - Comparison Operators like ==, ===, !=, !==, >, <, <=, >=, ternary operator(... ? ' ' : ' ')
+
+- <b>typeof</b> - 
+
+> Arithmetic Operators
+> 
+> Assignment operators
+> 
+> Comparison Operators
+> They return true or false.
+> e.g 
+> <pre>
+> const result = 20 > 18;
+> console.log(result);
+> </pre>
+> <hr>
+> === is the LS and RS equal in both value and datatype?
+> <pre>
+> const result1= 20 === 20;
+> console.log(result1);
+> </pre>
+> <hr>
+>
+> ternary operator
+> condition ? 'one result or value' : 'other result or value';
+> e.g. 
+> <pre>
+> const result = 20 === 20 ? 'values match' : 'values do not match';
+> </pre>
+> the above us the same as - the equation below
+> <pre>
+>  if(20 === 20){
+> resultVar = 'Values match';
+> } else{
+> resultVar = 'Values do not match';
+> }
+> </pre> 
+> 
+> <hr/>
+>
+> Logical Operators like &&, || and !
+> - && (and) - both sides should return true
+> - || (or) - one side  is true, it's false
+> - ! (not) - reverse an expression e.g. !(20 === 20); //return false
+>
+> <pre>
+> const isUserLoggedIn = true;
+> const doesUserHavePermission = false;
+> const canUserPerformAction = isUserLoggedIn && doesUserHavePermission;
+> </pre>
+>
+> clear();
+>
+> <pre>
+> const result = () => {
+>   return 20;
+> };  //this fn has no way of being called, so we do the following:-
+> 
+> const result = ( () => {
+>   return 20;
+> })(); //an immediately invoked function
+> </pre>
+
+#### Refer to CodeWars during Challenges.
+
+<hr>
+
+### Day 02 Challenges
+
+<img src="./assets/challenge-day-2/challenge_6.PNG" alt="challenge 6" >
+
+
+<img src="./assets/challenge-day-2/challenge_7.PNG" alt="challenge 7" >
+
+
+<img src="./assets/challenge-day-2/challenge_8.PNG" alt="challenge 8" >
+
+
+<img src="./assets/challenge-day-2/challenge_9.PNG" alt="challenge 9" >
+
+<img src="./assets/challenge-day-2/challenge_10.PNG" alt="challenge 10" >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
