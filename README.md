@@ -119,6 +119,7 @@ console.log(result);
 - Listen to the <b>Browser Wars</b> podcasts.
 
 ## JavaScript Variables
+> Variable is a data container.
 
 ### var, let and const keywords
 > a) <b>var</b> allows re-declaring.
@@ -196,7 +197,8 @@ console.log(result);
 > <pre>
 > const objVar = {prop1: 20, prop2: 20,};
 > console.log(objVar["prop1"]);
-> 
+>
+> console.log(objVar.prop1);
 > </pre>
 > To access the values in an object, we use <b>dot(.) notation</b>.
 > <pre>

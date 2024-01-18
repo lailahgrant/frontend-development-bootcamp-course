@@ -51,3 +51,8 @@ htmlBody.onClick = randomClickFunction;
  */
 
 //3. 
+const myArray = [10, 20, 30, 40];
+//built in fns for arrays
+myArray.push(50);
+
+myArray.reverse(); //reverses the order of the arrays in the myArray
