@@ -60,15 +60,15 @@ For backend development :-
 - JavaScript is a programming language for the web.
 
 ### What can you do with JS?
-- Develop web applications using Angular, Reactjs, Vuejs, Nestjs(backend)
-- Develop desktop applications using Electron
-- Develop mobile applications using React Native, Native Script
-- Develop AI and Machine learning projects using TensorFlow.
+- Develop web applications using <b>Angular, Reactjs, Vuejs, Nestjs(backend)</b>
+- Develop desktop applications using <b>Electron</b>
+- Develop mobile applications using <b>React Native, Native Script</b>
+- Develop AI and Machine learning projects using <b>TensorFlow</b>.
 
 ### What is a JavaScript Framework?  
 - A framework is something built on top of a programming language.
 - It is an abstraction on top of js that enables a developer to do something more efficiently in less time.
-e.g. Facebook's frontend is built on Reactjs Library for efficiency and time saving.
+e.g. Facebook's frontend is built on <b>Reactjs</b> Library for efficiency and time saving.
 
 ### Is JavaScript the best language?
 - It depends on the <u>Use case</u>
@@ -81,6 +81,23 @@ e.g. Facebook's frontend is built on Reactjs Library for efficiency and time sav
 - Yes, because HTML and CSS is used on the <b>Frontend</b>.
 - No, JavaScript is used on both <b>Frontend</b> and <b>Backend</b>.
 
+<pre>
+<code>
+function doMath(x, y){
+  return x * y;
+}
+
+const result = doMath(5, 87); 
+
+console.log(result); 
+</code>
+</pre>
+
+<hr>
+###### ISO - International Standard Organisation
+<img src="./assets/date.PNG" alt="Date Function" />
+
+
 ### What is the difference between ECMAScript and JavaScript?
 > ES6 is the latest specification of ECMAScript.
 - ECMA is an International organization in charge of Language Specification (Standards) - just like ISO
@@ -88,7 +105,7 @@ e.g. Facebook's frontend is built on Reactjs Library for efficiency and time sav
 - And this is important for Browser compatability and other reasons.
 
 ## What is a Programming Language?
-- This is a group of <b>tokens</b> or <b>symbols</b> when combined together in a very specific way can be translated by a compiler into machine code or (ones and zeros).
+- This is a group of <b>tokens</b> or <b>symbols</b> when combined together in a very specific way can be translated by a compiler into <i>machine code</i> or (ones and zeros).
 - To understand compilers, Runtime, Operating system theories etc, read the following book :- <b>The Elements of Computing Systems</b> [If you have time].
 -    
 > - If you're in a hurry to code, Read :- <b>The Hidden Language of Computer Hardware and Software</b> by <i>Charles Petzoi</i>
@@ -316,6 +333,7 @@ e.g. Facebook's frontend is built on Reactjs Library for efficiency and time sav
 <img src="./assets/challenge-day-2/challenge_10.PNG" alt="challenge 10" >
 
 
+### JavaScript Functions, Conditions and Loops.
 
 
 
