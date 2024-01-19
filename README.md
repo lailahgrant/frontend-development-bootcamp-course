@@ -258,8 +258,10 @@ console.log(result);
 
 > Arithmetic Operators
 > 
+
 > Assignment operators
-> 
+>
+
 > Comparison Operators
 > They return true or false.
 > e.g 
@@ -290,8 +292,7 @@ console.log(result);
 > }
 > </pre> 
 > 
-> <hr/>
->
+
 > Logical Operators like &&, || and !
 > - && (and) - both sides should return true
 > - || (or) - one side  is true, it's false
